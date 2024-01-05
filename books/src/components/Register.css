@@ -1,0 +1,70 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    height: 85vh;
+    margin-left: 30vw;
+    margin-top: 5vh;
+    background-color: rgb(230, 228, 228);
+    color: black;
+    align-items: center;
+    box-shadow: 5px 5px  6px rgba(0, 0, 0, 0.65);
+
+  }
+  fieldset{
+    width: 25vw;
+    height: 68vh;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  legend{
+    background-color: black;
+    color: white;
+  }
+  
+  form input{
+    font-size: 1rem;
+    /* color: aliceblue; */
+    background-color: white;
+    /* border: none; */
+    /* border-radius: 5px; */
+    height: 4.5vh;
+    /* width: 2vw; */
+    margin: 3px;
+
+  }
+  
+  form input[type="submit"]{
+    cursor: pointer;
+    background-color: #38c93d;
+    margin-top: 20px;
+    color: white;
+  
+  }
+  
+  .success{
+    background-color: aquamarine;
+    border-radius: 4px;
+    text-align: center;
+  }
+  /* form  */
+  .err{
+    color: red;
+    margin: 0;
+    font-size: smaller;
+    margin-bottom: 2px;
+  
+  }
+  
